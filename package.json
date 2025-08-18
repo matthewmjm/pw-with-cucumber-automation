@@ -1,18 +1,18 @@
 {
-  "name": "playwright-automation-framework",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "cucumberWithTS": "cucumber-js src/features/*.feature --require-module ts-node/register --require src step-definitions/**/**/*.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@cucumber/cucumber": "^12.1.0",
-    "@playwright/test": "^1.54.2",
-    "@types/node": "^24.3.0",
-    "ts-node": "^10.9.2"
-  }
+	"name": "playwright-automation-framework",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cucumberWithTS": "cucumber-js src/features/*.feature --require-module ts-node/register --require src/step-definitions/**/**/*.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@cucumber/cucumber": "^12.1.0",
+		"@playwright/test": "^1.54.2",
+		"@types/node": "^24.3.0",
+		"ts-node": "^10.9.2"
+	}
 }
