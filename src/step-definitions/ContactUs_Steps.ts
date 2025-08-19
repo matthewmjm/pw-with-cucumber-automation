@@ -1,8 +1,7 @@
-import { Given, When } from "@cucumber/cucumber";
-import { Browser, chromium, Page } from "playwright";
-
-let page: Page; //Represents a single webpage within a context
+import { When } from "@cucumber/cucumber";
+import { pageFixture } from "./hooks/browserContextFixture";
 
 When("I type a first name", async () => {
-	await page.getByPlaceholder("First Name").fill("Joe");
+	await pageFixture.page.getByPlaceholder("First Name").fill("Joe");
+	// await pageFixture.page.pause();
 });
