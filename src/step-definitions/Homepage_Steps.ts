@@ -16,13 +16,20 @@ When("I click on the contact us button", async () => {
 	await contactUs_Button.click();
 });
 
+// Before the refactor
+// When("I switch to the new browser tab", async () => {
+// 	page = await context.waitForEvent("page");
+// 	await page.bringToFront();
+// });
+
 When("I switch to the new browser tab", async () => {
-	await pageFixture.context.waitForEvent("page"); // reinitialize the page > new tab > page
+	// reinitialize the page > new tab > page
+	await pageFixture.context.waitForEvent("page");
 
 	// Retrieve all current open pages (tabs)
 	const allPages = await pageFixture.context.pages();
 
-	// Assign the most recent tab to pageFizture.page
+	// Assign the most recent tab to pageFixture.page
 	pageFixture.page = allPages[allPages.length - 1];
 
 	// Bring the newly assigned tab to the front (Make it active)
