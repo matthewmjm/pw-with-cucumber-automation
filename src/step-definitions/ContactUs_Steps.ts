@@ -40,3 +40,17 @@ Then("I should be presented with a successful contact us submission message", as
 	// await pageFixture.page.pause();
 	// locator('#contact_reply')
 });
+
+Then("I should be presented with an unsuccessful contact us message", async () => {
+	// Wait for the body tag element
+	await pageFixture.page.waitForSelector("body");
+
+	// locate the body tag element
+	const bodyElement = await pageFixture.page.locator("body");
+
+	// Extract the text from the element
+	const bodyText = await bodyElement.textContent();
+
+	// Assertion
+	expect(bodyText).toMatch(/Error: (all fields are required|Invalid email address)/);
+});
