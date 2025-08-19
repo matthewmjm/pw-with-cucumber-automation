@@ -1,4 +1,4 @@
-import { Given, When, Then } from "@cucumber/cucumber";
+import { Given, When } from "@cucumber/cucumber";
 import { Browser, chromium, Page } from "playwright";
 
 let browser: Browser; //Represents the browser instance (e.g., Chrome, Firefox, Webkit(Safari)) opened by Playwright
@@ -19,12 +19,15 @@ Given("I navigate to the webdriveruniversity homepage", async () => {
 	await page.goto(url);
 });
 
-// When("I click on the contact us button", { timeout: 70000 }, async () => {
-// await page.pause();
 When("I click on the contact us button", async () => {
 	// await page.pause();
 	const contactUs_Button = await page.getByRole("link", {
 		name: "CONTACT US Contact Us Form",
 	});
 	await contactUs_Button.click();
+});
+
+When("I switch to the new browser tab", async () => {
+	page = await context.waitForEvent("page");
+	await page.bringToFront();
 });
