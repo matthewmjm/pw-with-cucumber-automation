@@ -1,6 +1,7 @@
 import { Then, When } from "@cucumber/cucumber";
 import { pageFixture } from "./hooks/browserContextFixture";
 import { expect } from "@playwright/test";
+import { faker } from "@faker-js/faker";
 
 When("I type a first name", async () => {
 	await pageFixture.page.getByPlaceholder("First Name").fill("Joe");
@@ -70,4 +71,21 @@ When("I enter a specific email address {string}", async (emailAddress: string) =
 
 When("I type a specific text {string} and a number {int} within the comment input field", async (word: string, number: number) => {
 	await pageFixture.page.getByRole("textbox", { name: "Comments" }).fill(word + " " + number);
+});
+
+// Using Random Data via Faker
+When("I type a random first name", async () => {
+	const randomFirstName = faker.person.firstName();
+	await pageFixture.page.getByPlaceholder("First Name").fill(randomFirstName);
+});
+
+When("I type a random last name", async () => {
+	const randomLastName = faker.person.lastName();
+	await pageFixture.page.getByPlaceholder("Last Name").fill(randomLastName);
+});
+
+When("I enter a random email", async () => {
+	const randomEmail = faker.internet.email();
+	await pageFixture.page.getByPlaceholder("Email Address").fill(randomEmail);
+	// await pageFixture.page.pause();
 });
