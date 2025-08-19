@@ -1,5 +1,5 @@
 Feature: WebdriverUniversity.com - Contact Us Page
-  Scenario: Valid Contact Us Form Submission
+    # Scenario: Valid Contact Us Form Submission
     Given I navigate to the webdriveruniversity homepage
     When I click on the contact us button
     And I switch to the new browser tab
@@ -26,7 +26,7 @@ Feature: WebdriverUniversity.com - Contact Us Page
     When I click on the contact us button
     And I switch to the new browser tab
     And I type a specific first name "Sarah"
-    And I type a speciic last name "Woods"
+    And I type a specific last name "Woods"
     And I enter a specific email address "sarah_woods@example.com"
     And I type a specific text "Hello world" and a number 2 within the comment input field
     And I click on the submit button

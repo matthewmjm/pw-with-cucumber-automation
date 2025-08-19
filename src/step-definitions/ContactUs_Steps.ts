@@ -54,3 +54,20 @@ Then("I should be presented with an unsuccessful contact us message", async () =
 	// Assertion
 	expect(bodyText).toMatch(/Error: (all fields are required|Invalid email address)/);
 });
+
+// Cucumber Expressions
+When("I type a specific first name {string}", async (firstName: string) => {
+	await pageFixture.page.getByPlaceholder("First Name").fill(firstName);
+});
+
+When("I type a specific last name {string}", async (lastName: string) => {
+	await pageFixture.page.getByPlaceholder("Last Name").fill(lastName);
+});
+
+When("I enter a specific email address {string}", async (emailAddress: string) => {
+	await pageFixture.page.getByPlaceholder("Email Address").fill(emailAddress);
+});
+
+When("I type a specific text {string} and a number {int} within the comment input field", async (word: string, number: number) => {
+	await pageFixture.page.getByRole("textbox", { name: "Comments" }).fill(word + " " + number);
+});
