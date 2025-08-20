@@ -7,7 +7,7 @@ Feature: Webdriveruniversity - Login Page
     And I type a username <username>
     And I type a password <password>
     And I click on the login button
-    #Then I should be presented with an alert box which contains text '<expectedAlertText>'
+    Then I should be presented with an alert box which contains text '<expectedAlertText>'
 
     Examples:
       | username  | password     | expectedAlertText    |

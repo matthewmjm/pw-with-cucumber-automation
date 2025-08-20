@@ -1,6 +1,8 @@
 import { When, Then } from "@cucumber/cucumber";
 import { pageFixture } from "./hooks/browserContextFixture";
-import { log } from "console";
+import { expect } from "@playwright/test";
+
+let alertText: string;
 
 When("I type a username {word}", async (username: string) => {
 	await pageFixture.page.getByPlaceholder("Username").fill(username);
@@ -8,12 +10,23 @@ When("I type a username {word}", async (username: string) => {
 
 When("I type a password {word}", async (password: string) => {
 	await pageFixture.page.getByPlaceholder("Password").fill(password);
+	//await pageFixture.page.waitForTimeout(2000);
 });
 
 When("I click on the login button", async () => {
+	// listener for alert
+	await pageFixture.page.on("dialog", async (alert) => {
+		alertText = alert.message();
+		//console.log("alertText: ", alertText);
+		await alert.accept();
+	});
 	const loginButton = await pageFixture.page.locator("#login-button");
 	await loginButton.hover();
 	await loginButton.click({ force: true });
+	//await pageFixture.page.waitForTimeout(2000);
 });
 
-Then("I should be presented with an alert box which contains text {string}", async (string) => {});
+Then("I should be presented with an alert box which contains text {string}", async (expectedAlertText: string) => {
+	// assertion
+	expect(alertText).toBe(expectedAlertText);
+});
