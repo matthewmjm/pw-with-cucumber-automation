@@ -6,6 +6,7 @@ const common =
 --require-module ts-node/register \
 --require ./src/step-definitions/**/**/*.ts \
 --require ./src/utils/cucumber-timeout.ts \
+-f json:./reports/report.json \
 --tags 'not @ignore'";
 
 // Define an interface for the profiles object
