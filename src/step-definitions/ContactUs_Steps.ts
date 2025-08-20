@@ -89,3 +89,40 @@ When("I enter a random email", async () => {
 	await pageFixture.page.getByPlaceholder("Email Address").fill(randomEmail);
 	// await pageFixture.page.pause();
 });
+
+// Scenario Outlines
+
+When("I type a first name {word} and a last name {word}", async (firstName: string, lastName: string) => {
+	await pageFixture.page.getByPlaceholder("First Name").fill(firstName);
+	await pageFixture.page.getByPlaceholder("Last Name").fill(lastName);
+});
+
+When("I type an email address {string} and a comment {string}", async (email: string, comment: string) => {
+	await pageFixture.page.getByPlaceholder("Email Address").fill(email);
+	await pageFixture.page.getByPlaceholder("Comments").fill(comment);
+	// await pageFixture.page.pause();
+});
+
+Then("I should be presented with a header text {string}", async (message: string) => {
+	// h1
+	// body
+	// //h1 | // body
+	await pageFixture.page.waitForSelector("//h1 | //body", { state: "visible" });
+
+	// get all elements
+	const elements = await pageFixture.page.locator("//h1 | //body").elementHandles();
+
+	// loop through until find desired text
+	let foundElementText = "";
+	for (let element of elements) {
+		// get inner text of the element
+		let text = await element.innerText();
+		// if statement to check whether text includes expected text
+		if (text.includes(message)) {
+			foundElementText = text;
+			break;
+		}
+		// perform an assertion
+		expect(foundElementText).toContain(message);
+	}
+});
