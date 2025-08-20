@@ -2,6 +2,18 @@ import { After, AfterAll, Before, BeforeAll, Status } from "@cucumber/cucumber";
 import { Browser, chromium } from "@playwright/test";
 import { pageFixture } from "./browserContextFixture";
 
+// Load env variables from .env file
+import { config as loadEnv } from "dotenv";
+const env = loadEnv({ path: "./env/.env" });
+
+// Create a configuration object for easy access to env variables
+const config = {
+	headless: env.parsed?.HEADLESS === "true",
+	browser: env.parsed?.UI_AUTOMATION_BROWSER || "chromium",
+	width: parseInt(env.parsed?.BROWSER_WIDTH || "1920"),
+	height: parseInt(env.parsed?.BROWSER_HEIGHT || "1080"),
+};
+
 //Represents the browser instance (e.g., Chrome, Firefox, Webkit(Safari)) opened by Playwright
 let browser: Browser;
 
