@@ -1,5 +1,5 @@
 import { After, AfterAll, Before, BeforeAll, Status } from "@cucumber/cucumber";
-import { Browser, chromium } from "@playwright/test";
+import { Browser, BrowserType, chromium, firefox, webkit } from "@playwright/test";
 import { pageFixture } from "./browserContextFixture";
 
 // Load env variables from .env file
@@ -14,8 +14,34 @@ const config = {
 	height: parseInt(env.parsed?.BROWSER_HEIGHT || "1080"),
 };
 
+// Create dictionary mapping browser names to their launch functions
+const browsers: { [key: string]: BrowserType } = {
+	chromium: chromium,
+	firefox: firefox,
+	webkit: webkit,
+};
+
 //Represents the browser instance (e.g., Chrome, Firefox, Webkit(Safari)) opened by Playwright
-let browser: Browser;
+let browserInstance: Browser | null = null;
+
+async function initializeBrowserContext(selectedBrowser: string): Promise<Browser> {
+	const launchBrowser = browsers[selectedBrowser];
+	if (!launchBrowser) {
+		throw new Error(`Invalid browser selected: ${selectedBrowser}`);
+	}
+	return await launchBrowser.launch({ headless: config.headless });
+}
+
+async function initializePage(): Promise<void> {
+	if (!browserInstance) {
+		throw new Error("Browser instance is null");
+	}
+	pageFixture.context = await browserInstance.newContext({
+		ignoreHTTPSErrors: true,
+	});
+	pageFixture.page = await pageFixture.context.newPage();
+	await pageFixture.page.setViewportSize({ width: config.width, height: config.height });
+}
 
 // BeforeAll hook: Runs once before all scenarios
 BeforeAll(async function () {
@@ -29,11 +55,18 @@ AfterAll(async function () {
 
 // Before hook: Runs before each scenario
 Before(async function () {
-	browser = await chromium.launch({ headless: false });
-	pageFixture.context = await browser.newContext({
-		viewport: { width: 1920, height: 1080 },
-	});
-	pageFixture.page = await pageFixture.context.newPage();
+	try {
+		// browser = await chromium.launch({ headless: false });
+		browserInstance = await initializeBrowserContext(config.browser);
+		console.log(`Browser context initialized for: ${config.browser}`);
+		// pageFixture.context = await browser.newContext({
+		// 	viewport: { width: 1920, height: 1080 },
+		// });
+		// pageFixture.page = await pageFixture.context.newPage();
+		await initializePage();
+	} catch (error) {
+		console.error("Browser content initialization failed:", error);
+	}
 });
 
 // After hook: Runs after each scenario
@@ -51,6 +84,10 @@ After(async function ({ pickle, result }) {
 			console.error("pageFixture.page is undefined");
 		}
 	}
-	await pageFixture.page.close();
-	await browser.close();
+
+	// If the browser instance exists, this is the tear-down
+	if (browserInstance) {
+		await pageFixture.page?.close();
+		await browserInstance.close();
+	}
 });
