@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1556202789
+              "duration": 1277635679
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1088893335
+              "duration": 1222485757
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31590736
+              "duration": 31468613
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50799618
+              "duration": 52141643
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2002661100
+              "duration": 2002730918
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 364366178
+              "duration": 484498735
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1602300
+              "duration": 1699286
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 343161949
+              "duration": 496751643
             }
           }
         ],
@@ -128,7 +128,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1048630318
+              "duration": 1123301346
             }
           },
           {
@@ -141,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1049403747
+              "duration": 1423217179
             }
           },
           {
@@ -154,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23787347
+              "duration": 24108458
             }
           },
           {
@@ -167,7 +167,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48691106
+              "duration": 49861469
             }
           },
           {
@@ -180,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2002928347
+              "duration": 2002255446
             }
           },
           {
@@ -193,7 +193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 365630017
+              "duration": 504476093
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277815
+              "duration": 282004
             }
           },
           {
@@ -214,7 +214,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 497228939
+              "duration": 470686888
             }
           }
         ],
@@ -226,6 +226,124 @@
           {
             "name": "@login",
             "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Validate valid & invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1216737721
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to the webdriveruniversity login page",
+            "match": {
+              "location": "src/step-definitions/Login_Steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1252561711
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type a username webdriver",
+            "match": {
+              "location": "src/step-definitions/Login_Steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26137434
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I type a password webdriver123",
+            "match": {
+              "location": "src/step-definitions/Login_Steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44500196
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "src/step-definitions/Base_Steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001880570
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on the login button",
+            "match": {
+              "location": "src/step-definitions/Login_Steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372413394
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be presented with an alert box which contains text 'validation succeeded'",
+            "match": {
+              "location": "src/step-definitions/Login_Steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458810
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 471363091
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 23
           }
         ],
         "type": "scenario"
