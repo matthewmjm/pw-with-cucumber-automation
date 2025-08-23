@@ -1,14 +1,19 @@
 import { exec } from "child_process";
+import dotenv from "dotenv";
+dotenv.config({ path: "./env/.env" });
+
+// Setting a retry value from environment variables or defaulting to '0'
+const retryValue = process.env.RETRY || "0";
 
 // Define a common command string for running cucumber tests
-const common =
-	"./src/features/*.feature \
+const common = `./src/features/*.feature \
 --require-module ts-node/register \
 --require ./src/step-definitions/**/**/*.ts \
 --require ./src/utils/cucumber-timeout.ts \
 -f json:./reports/report.json \
 --format html:./reports/report.html \
---tags 'not @ignore'";
+--retry ${retryValue} \
+--tags 'not @ignore'`;
 
 // Define an interface for the profiles object
 // It defines an interface where each key is a string and its value is also a string
