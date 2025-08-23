@@ -1,11 +1,17 @@
 import { Page } from "@playwright/test";
 
+// Load env variables from .env file
+import { config as loadEnv } from "dotenv";
+const env = loadEnv({ path: "./env/.env" });
+
 export function setGlobalSettings(page: Page) {
 	// Set Global 'navigation' timeout
-	page.setDefaultNavigationTimeout(50000); // wait up to 50 seconds
+	const navigationTimeout = parseInt(env.parsed?.UI_AUTOMATION_NAVIGATION_TIMEOUT || "50000");
+	page.setDefaultNavigationTimeout(navigationTimeout); // wait up to 50 seconds
 
 	// Set Global 'command' timeout
-	page.setDefaultTimeout(30000); // wait up to 30 seconds
+	const commandTimeout = parseInt(env.parsed?.UI_AUTOMATION_COMMAND_TIMEOUT || "30000");
+	page.setDefaultTimeout(commandTimeout); // wait up to 30 seconds
 
 	// Override global 'navigation' timeout - Command Example:
 	// await page.goto('https://example.com, {.timeout: 60000 });
