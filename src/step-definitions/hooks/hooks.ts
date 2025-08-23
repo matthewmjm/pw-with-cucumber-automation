@@ -2,6 +2,7 @@ import { After, AfterAll, Before, BeforeAll, Status } from "@cucumber/cucumber";
 import { Browser, BrowserType, chromium, firefox, webkit } from "@playwright/test";
 import { pageFixture } from "./browserContextFixture";
 import { setGlobalSettings } from "../../utils/playwright-timeouts";
+import { PageManager } from "../../page-objects/base/PageManager";
 
 // Load env variables from .env file
 import { config as loadEnv } from "dotenv";
@@ -66,6 +67,10 @@ Before(async function () {
 		// });
 		// pageFixture.page = await pageFixture.context.newPage();
 		await initializePage();
+
+		// initialize page manager and base page
+		this.pageManager = new PageManager();
+		this.basePage = this.pageManager.createBasePage();
 	} catch (error) {
 		console.error("Browser content initialization failed:", error);
 	}

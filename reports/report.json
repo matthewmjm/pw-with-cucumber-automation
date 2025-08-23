@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1166285661
+              "duration": 1168221092
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1239951910
+              "duration": 1270069274
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 296789761
+              "duration": 1829295
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13214646
+              "duration": 316241696
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 185404281
+              "duration": 226847977
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34494654
+              "duration": 16504425
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5590040
+              "duration": 6384903
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10162990
+              "duration": 20991635
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 444743554
+              "duration": 421720356
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 312001739
+              "duration": 311513559
             }
           },
           {
@@ -139,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 345768226
+              "duration": 413365123
             }
           }
         ],
@@ -167,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 976459823
+              "duration": 1171507791
             }
           },
           {
@@ -180,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1578445573
+              "duration": 1111039084
             }
           },
           {
@@ -189,11 +189,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 173990012
+              "duration": 994073
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 333357383
+              "duration": 993512434
             }
           },
           {
@@ -219,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 55805430
+              "duration": 57396145
             }
           },
           {
@@ -232,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94356057
+              "duration": 34893788
             }
           },
           {
@@ -245,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8784406
+              "duration": 7523120
             }
           },
           {
@@ -258,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 287698749
+              "duration": 314857099
             }
           },
           {
@@ -271,7 +271,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23307552
+              "duration": 22607417
             }
           },
           {
@@ -279,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 291762352
+              "duration": 381174100
             }
           }
         ],
@@ -307,7 +307,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 900918848
+              "duration": 950863897
             }
           },
           {
@@ -320,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1276572186
+              "duration": 1238710714
             }
           },
           {
@@ -329,11 +329,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 295385623
+              "duration": 414490
             }
           },
           {
@@ -346,7 +346,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15594333
+              "duration": 310750858
             }
           },
           {
@@ -359,7 +359,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 210938750
+              "duration": 208627749
             }
           },
           {
@@ -372,7 +372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36799063
+              "duration": 48474442
             }
           },
           {
@@ -385,7 +385,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24717370
+              "duration": 11152445
             }
           },
           {
@@ -398,7 +398,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9912995
+              "duration": 9323169
             }
           },
           {
@@ -411,7 +411,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 454364370
+              "duration": 424621286
             }
           },
           {
@@ -424,7 +424,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 300461600
+              "duration": 305649124
             }
           },
           {
@@ -432,7 +432,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 335708015
+              "duration": 394109951
             }
           }
         ],
@@ -460,7 +460,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1072530507
+              "duration": 1063074862
             }
           },
           {
@@ -473,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1050866407
+              "duration": 1227617336
             }
           },
           {
@@ -482,11 +482,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 170849720
+              "duration": 691147
             }
           },
           {
@@ -499,7 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 182119685
+              "duration": 319745203
             }
           },
           {
@@ -512,7 +512,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 210676597
+              "duration": 264133333
             }
           },
           {
@@ -525,7 +525,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35848619
+              "duration": 31424434
             }
           },
           {
@@ -538,7 +538,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6072380
+              "duration": 8768802
             }
           },
           {
@@ -551,7 +551,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8238058
+              "duration": 6917011
             }
           },
           {
@@ -564,7 +564,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 425753795
+              "duration": 419792391
             }
           },
           {
@@ -577,7 +577,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305599215
+              "duration": 304967156
             }
           },
           {
@@ -585,7 +585,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 349502293
+              "duration": 378249819
             }
           }
         ],
@@ -613,7 +613,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1013216899
+              "duration": 1087183627
             }
           },
           {
@@ -626,7 +626,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1183052964
+              "duration": 1215314408
             }
           },
           {
@@ -635,11 +635,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 146976479
+              "duration": 740711
             }
           },
           {
@@ -652,7 +652,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 159840833
+              "duration": 316955569
             }
           },
           {
@@ -665,7 +665,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 233916595
+              "duration": 233599540
             }
           },
           {
@@ -678,7 +678,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11141363
+              "duration": 13676371
             }
           },
           {
@@ -691,7 +691,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 430218345
+              "duration": 439703181
             }
           },
           {
@@ -704,7 +704,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 311311220
+              "duration": 311780065
             }
           },
           {
@@ -712,7 +712,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 373077929
+              "duration": 583332840
             }
           }
         ],
@@ -744,7 +744,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 989212657
+              "duration": 1086660777
             }
           },
           {
@@ -757,7 +757,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1051989089
+              "duration": 1228438063
             }
           },
           {
@@ -766,11 +766,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 284384724
+              "duration": 538528
             }
           },
           {
@@ -783,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14906362
+              "duration": 335891575
             }
           },
           {
@@ -796,7 +796,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 225127667
+              "duration": 262680766
             }
           },
           {
@@ -809,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12885797
+              "duration": 28587233
             }
           },
           {
@@ -822,7 +822,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 443874500
+              "duration": 422126878
             }
           },
           {
@@ -835,7 +835,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 309416617
+              "duration": 313219243
             }
           },
           {
@@ -843,7 +843,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 368404930
+              "duration": 425855582
             }
           }
         ],
@@ -875,7 +875,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1042375631
+              "duration": 991696712
             }
           },
           {
@@ -888,7 +888,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1055169316
+              "duration": 1092523461
             }
           },
           {
@@ -897,11 +897,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:20"
+              "location": "src/step-definitions/Homepage_Steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 147287287
+              "duration": 660803
             }
           },
           {
@@ -914,7 +914,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 163728836
+              "duration": 498905499
             }
           },
           {
@@ -927,7 +927,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 232076035
+              "duration": 104783027
             }
           },
           {
@@ -940,7 +940,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8766251
+              "duration": 9615195
             }
           },
           {
@@ -953,7 +953,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305825960
+              "duration": 311258769
             }
           },
           {
@@ -966,7 +966,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29984046
+              "duration": 26446119
             }
           },
           {
@@ -974,7 +974,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 395911249
+              "duration": 497389096
             }
           }
         ],
@@ -1010,371 +1010,5 @@
       }
     ],
     "uri": "src/features/Contact_Us.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login",
-        "keyword": "Scenario Outline",
-        "line": 20,
-        "name": "Validate valid & invalid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1152667457
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "I navigate to the webdriveruniversity login page",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1072196310
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I type a username webdriver",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 25133390
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "I type a password webdriver123",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 47664970
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "I wait for 2 seconds",
-            "match": {
-              "location": "src/step-definitions/Base_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2002644303
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "I click on the login button",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 378418796
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "I should be presented with an alert box which contains text 'validation succeeded'",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1365935
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 393121254
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression",
-            "line": 1
-          },
-          {
-            "name": "@login",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login",
-        "keyword": "Scenario Outline",
-        "line": 21,
-        "name": "Validate valid & invalid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1069716683
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "I navigate to the webdriveruniversity login page",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1030630792
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I type a username webdriver",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 24669452
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "I type a password password123",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 47023020
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "I wait for 2 seconds",
-            "match": {
-              "location": "src/step-definitions/Base_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2002044457
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "I click on the login button",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 357502804
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "I should be presented with an alert box which contains text 'validation failed'",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 470945
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 452944046
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression",
-            "line": 1
-          },
-          {
-            "name": "@login",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login",
-        "keyword": "Scenario Outline",
-        "line": 26,
-        "name": "Validate valid & invalid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1127302080
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "I navigate to the webdriveruniversity login page",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1056786174
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I type a username webdriver",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23798762
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "I type a password webdriver123",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 46429091
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "I wait for 2 seconds",
-            "match": {
-              "location": "src/step-definitions/Base_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2002023559
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "I click on the login button",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 362201624
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "I should be presented with an alert box which contains text 'validation succeeded'",
-            "match": {
-              "location": "src/step-definitions/Login_Steps.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 314597
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 422325145
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression",
-            "line": 1
-          },
-          {
-            "name": "@login",
-            "line": 1
-          },
-          {
-            "name": "@smoke",
-            "line": 23
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "webdriveruniversity---login-page",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Webdriveruniversity - Login Page",
-    "tags": [
-      {
-        "name": "@regression",
-        "line": 1
-      },
-      {
-        "name": "@login",
-        "line": 1
-      }
-    ],
-    "uri": "src/features/Login.feature"
   }
 ]
