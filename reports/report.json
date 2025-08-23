@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1194407858
+              "duration": 1291423358
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:6"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1666287676
+              "duration": 1232669282
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:11"
+              "location": "src/step-definitions/Homepage_Steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 295162796
+              "duration": 153663190
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 146282836
+              "duration": 159606729
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 197125675
+              "duration": 179887178
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36872706
+              "duration": 45816761
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4924742
+              "duration": 13091241
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21751764
+              "duration": 6957422
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 423941871
+              "duration": 446673640
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 309242445
+              "duration": 307564698
             }
           },
           {
@@ -139,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 403047058
+              "duration": 337323301
             }
           }
         ],
