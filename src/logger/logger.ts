@@ -6,18 +6,18 @@ dotenv.config({ path: "./env/.env" });
 
 // Define custom format
 const myFormat = format.printf(({ level, message, timestamp }) => {
-	let colorizedMessage = message;
-	// switch (level) {
-	// 	case "error":
-	// 		colorizedMessage = colors.red(message);
-	// 		break;
-	// 	case "warn":
-	// 		colorizedMessage = colors.yellow(message);
-	// 		break;
-	// 	case "info":
-	// 		colorizedMessage = colors.green(message);
-	// 		break;
-	// }
+	let colorizedMessage = String(message);
+	switch (level) {
+		case "error":
+			colorizedMessage = colors.red(String(message));
+			break;
+		case "warn":
+			colorizedMessage = colors.yellow(String(message));
+			break;
+		case "info":
+			colorizedMessage = colors.green(String(message));
+			break;
+	}
 	return `${timestamp} ${level}: ${colorizedMessage}`;
 });
 
