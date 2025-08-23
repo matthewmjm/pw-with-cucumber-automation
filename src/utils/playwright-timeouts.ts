@@ -10,7 +10,7 @@ export function setGlobalSettings(page: Page) {
 	page.setDefaultNavigationTimeout(navigationTimeout); // wait up to 50 seconds
 
 	// Set Global 'command' timeout
-	const commandTimeout = parseInt(env.parsed?.UI_AUTOMATION_COMMAND_TIMEOUT || "30000");
+	const commandTimeout = parseInt(env.parsed?.UI_AUTOMATION_COMMAND_TIMEOUT || "45000");
 	page.setDefaultTimeout(commandTimeout); // wait up to 30 seconds
 
 	// Override global 'navigation' timeout - Command Example:
