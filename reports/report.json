@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1351767687
+              "duration": 1668190710
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1318998590
+              "duration": 1544578916
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1841005
+              "duration": 2383088
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 314555154
+              "duration": 493833369
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 208016881
+              "duration": 78083730
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34807973
+              "duration": 8530483
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5779344
+              "duration": 6403612
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7058200
+              "duration": 7292610
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 418197658
+              "duration": 427507005
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 811689830
+              "duration": 811679759
             }
           },
           {
@@ -139,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 393304786
+              "duration": 400641429
             }
           }
         ],
@@ -167,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1258213157
+              "duration": 1138790335
             }
           },
           {
@@ -176,11 +176,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1459833189
+              "duration": 1373755742
             }
           },
           {
@@ -189,11 +189,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 644809
+              "duration": 845578
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 328546452
+              "duration": 321841545
             }
           },
           {
@@ -219,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 212390953
+              "duration": 175858075
             }
           },
           {
@@ -232,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36263064
+              "duration": 32488272
             }
           },
           {
@@ -245,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6930231
+              "duration": 41755973
             }
           },
           {
@@ -258,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 422473536
+              "duration": 297216567
             }
           },
           {
@@ -271,7 +271,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26301351
+              "duration": 24165962
             }
           },
           {
@@ -279,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 737420324
+              "duration": 386598164
             }
           }
         ],
@@ -307,7 +307,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1063149201
+              "duration": 1083662496
             }
           },
           {
@@ -316,11 +316,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1379308772
+              "duration": 1523026699
             }
           },
           {
@@ -329,11 +329,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 741388
+              "duration": 775777
             }
           },
           {
@@ -346,7 +346,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335992416
+              "duration": 317570716
             }
           },
           {
@@ -359,7 +359,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346631187
+              "duration": 242710704
             }
           },
           {
@@ -372,7 +372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7667614
+              "duration": 17293502
             }
           },
           {
@@ -385,7 +385,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6232029
+              "duration": 8514073
             }
           },
           {
@@ -398,7 +398,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12618200
+              "duration": 24720079
             }
           },
           {
@@ -411,7 +411,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 558099748
+              "duration": 513455967
             }
           },
           {
@@ -424,7 +424,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 808324824
+              "duration": 804754339
             }
           },
           {
@@ -432,7 +432,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 612646068
+              "duration": 379707005
             }
           }
         ],
@@ -460,7 +460,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 979568594
+              "duration": 1138247490
             }
           },
           {
@@ -469,11 +469,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1556718164
+              "duration": 1427538207
             }
           },
           {
@@ -482,11 +482,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 510168
+              "duration": 501555
             }
           },
           {
@@ -499,7 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 323130902
+              "duration": 474802542
             }
           },
           {
@@ -512,7 +512,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 212728207
+              "duration": 74643964
             }
           },
           {
@@ -525,7 +525,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34218948
+              "duration": 16321895
             }
           },
           {
@@ -538,7 +538,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8476001
+              "duration": 8128641
             }
           },
           {
@@ -551,7 +551,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6785242
+              "duration": 8919905
             }
           },
           {
@@ -564,7 +564,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 544856313
+              "duration": 532418460
             }
           },
           {
@@ -577,7 +577,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 808257473
+              "duration": 814215866
             }
           },
           {
@@ -585,7 +585,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 783470170
+              "duration": 467818095
             }
           }
         ],
@@ -613,7 +613,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 937763058
+              "duration": 1061086405
             }
           },
           {
@@ -622,11 +622,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1351630957
+              "duration": 1363349780
             }
           },
           {
@@ -635,11 +635,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 492793
+              "duration": 495154
             }
           },
           {
@@ -652,7 +652,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 463524517
+              "duration": 347481180
             }
           },
           {
@@ -665,7 +665,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93906574
+              "duration": 205432698
             }
           },
           {
@@ -678,7 +678,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10610657
+              "duration": 43897324
             }
           },
           {
@@ -691,7 +691,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 426040681
+              "duration": 418070445
             }
           },
           {
@@ -704,7 +704,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 816747650
+              "duration": 811831277
             }
           },
           {
@@ -712,7 +712,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 524722716
+              "duration": 355534170
             }
           }
         ],
@@ -744,7 +744,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 991608447
+              "duration": 899977245
             }
           },
           {
@@ -753,11 +753,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1241292858
+              "duration": 1360598178
             }
           },
           {
@@ -766,11 +766,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 445750
+              "duration": 735458
             }
           },
           {
@@ -783,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 358354734
+              "duration": 305880374
             }
           },
           {
@@ -796,7 +796,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 194870590
+              "duration": 267480276
             }
           },
           {
@@ -809,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43949339
+              "duration": 8494561
             }
           },
           {
@@ -822,7 +822,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 989455566
+              "duration": 628035885
             }
           },
           {
@@ -835,7 +835,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 810998540
+              "duration": 810930854
             }
           },
           {
@@ -843,7 +843,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 325234034
+              "duration": 421859607
             }
           }
         ],
@@ -875,7 +875,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 906696821
+              "duration": 981409200
             }
           },
           {
@@ -884,11 +884,11 @@
             "line": 5,
             "name": "I navigate to the webdriveruniversity homepage",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:8"
+              "location": "src/step-definitions/Homepage_Steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1253428855
+              "duration": 1422317816
             }
           },
           {
@@ -897,11 +897,11 @@
             "line": 6,
             "name": "I click on the contact us button",
             "match": {
-              "location": "src/step-definitions/Homepage_Steps.ts:18"
+              "location": "src/step-definitions/Homepage_Steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 528106
+              "duration": 461880
             }
           },
           {
@@ -914,7 +914,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 327934051
+              "duration": 361656212
             }
           },
           {
@@ -927,7 +927,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 262761785
+              "duration": 204448531
             }
           },
           {
@@ -940,7 +940,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7819669
+              "duration": 43885173
             }
           },
           {
@@ -953,7 +953,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 294964582
+              "duration": 413690668
             }
           },
           {
@@ -966,7 +966,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68432373
+              "duration": 26833929
             }
           },
           {
@@ -974,7 +974,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 434313305
+              "duration": 428200529
             }
           }
         ],
@@ -1026,7 +1026,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1014739324
+              "duration": 1225136757
             }
           },
           {
@@ -1039,7 +1039,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1473704311
+              "duration": 1355213080
             }
           },
           {
@@ -1052,7 +1052,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23786205
+              "duration": 24211517
             }
           },
           {
@@ -1065,7 +1065,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45039881
+              "duration": 46785263
             }
           },
           {
@@ -1078,7 +1078,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2002526842
+              "duration": 2002440664
             }
           },
           {
@@ -1091,7 +1091,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 495944190
+              "duration": 508828257
             }
           },
           {
@@ -1104,7 +1104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1159932
+              "duration": 1192895
             }
           },
           {
@@ -1112,7 +1112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 259017161
+              "duration": 387430310
             }
           }
         ],
@@ -1140,7 +1140,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 885422205
+              "duration": 1025840564
             }
           },
           {
@@ -1153,7 +1153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1262011555
+              "duration": 1370797316
             }
           },
           {
@@ -1166,7 +1166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23540358
+              "duration": 24040417
             }
           },
           {
@@ -1179,7 +1179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48652263
+              "duration": 46665778
             }
           },
           {
@@ -1192,7 +1192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2001806830
+              "duration": 2001617813
             }
           },
           {
@@ -1205,7 +1205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 422098421
+              "duration": 389521493
             }
           },
           {
@@ -1218,7 +1218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 426523
+              "duration": 398178
             }
           },
           {
@@ -1226,7 +1226,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 486504110
+              "duration": 408277998
             }
           }
         ],
@@ -1254,7 +1254,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 917000770
+              "duration": 1064775071
             }
           },
           {
@@ -1267,7 +1267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1209692870
+              "duration": 1332448891
             }
           },
           {
@@ -1280,7 +1280,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23906339
+              "duration": 22852857
             }
           },
           {
@@ -1293,7 +1293,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46206061
+              "duration": 45341820
             }
           },
           {
@@ -1306,7 +1306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2002609609
+              "duration": 2001512524
             }
           },
           {
@@ -1319,7 +1319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 497238064
+              "duration": 499415449
             }
           },
           {
@@ -1332,7 +1332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 288482
+              "duration": 327257
             }
           },
           {
@@ -1340,7 +1340,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 353508232
+              "duration": 441136483
             }
           }
         ],

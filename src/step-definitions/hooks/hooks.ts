@@ -68,9 +68,10 @@ Before(async function () {
 		// pageFixture.page = await pageFixture.context.newPage();
 		await initializePage();
 
-		// initialize page manager and base page
+		// initialize page manager, base page and home page
 		this.pageManager = new PageManager();
 		this.basePage = this.pageManager.createBasePage();
+		this.homePage = this.pageManager.createHomePage();
 	} catch (error) {
 		console.error("Browser content initialization failed:", error);
 	}
