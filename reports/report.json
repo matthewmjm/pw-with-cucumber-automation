@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1668190710
+              "duration": 1038719117
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1544578916
+              "duration": 1087569762
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2383088
+              "duration": 1994228
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 493833369
+              "duration": 312560099
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78083730
+              "duration": 209989352
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8530483
+              "duration": 18593833
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6403612
+              "duration": 8734351
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7292610
+              "duration": 6777165
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 427507005
+              "duration": 460014987
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 15,
             "name": "I should be presented with a successful contact us submission message",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:34"
+              "location": "src/step-definitions/ContactUs_Steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 811679759
+              "duration": 308252504
             }
           },
           {
@@ -139,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 400641429
+              "duration": 343173636
             }
           }
         ],
@@ -167,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1138790335
+              "duration": 1046010755
             }
           },
           {
@@ -180,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1373755742
+              "duration": 1049557336
             }
           },
           {
@@ -193,7 +193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 845578
+              "duration": 472045
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 321841545
+              "duration": 318421336
             }
           },
           {
@@ -219,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175858075
+              "duration": 195223494
             }
           },
           {
@@ -232,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32488272
+              "duration": 34255261
             }
           },
           {
@@ -245,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41755973
+              "duration": 4652036
             }
           },
           {
@@ -258,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 297216567
+              "duration": 309748757
             }
           },
           {
@@ -267,11 +267,11 @@
             "line": 23,
             "name": "I should be presented with an unsuccessful contact us message",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:48"
+              "location": "src/step-definitions/ContactUs_Steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 24165962
+              "duration": 23153934
             }
           },
           {
@@ -279,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 386598164
+              "duration": 337291080
             }
           }
         ],
@@ -307,7 +307,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1083662496
+              "duration": 1043285132
             }
           },
           {
@@ -320,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1523026699
+              "duration": 1057538506
             }
           },
           {
@@ -333,7 +333,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 775777
+              "duration": 531854
             }
           },
           {
@@ -346,7 +346,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 317570716
+              "duration": 308768718
             }
           },
           {
@@ -355,11 +355,11 @@
             "line": 26,
             "name": "I type a specific first name \"Sarah\"",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:63"
+              "location": "src/step-definitions/ContactUs_Steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 242710704
+              "duration": 205024192
             }
           },
           {
@@ -368,11 +368,11 @@
             "line": 27,
             "name": "I type a specific last name \"Woods\"",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:67"
+              "location": "src/step-definitions/ContactUs_Steps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 17293502
+              "duration": 36195247
             }
           },
           {
@@ -381,11 +381,11 @@
             "line": 28,
             "name": "I enter a specific email address \"sarah_woods@example.com\"",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:71"
+              "location": "src/step-definitions/ContactUs_Steps.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 8514073
+              "duration": 8873185
             }
           },
           {
@@ -394,11 +394,11 @@
             "line": 29,
             "name": "I type a specific text \"Hello world\" and a number 2 within the comment input field",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:75"
+              "location": "src/step-definitions/ContactUs_Steps.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 24720079
+              "duration": 24524708
             }
           },
           {
@@ -411,7 +411,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 513455967
+              "duration": 417198694
             }
           },
           {
@@ -420,11 +420,11 @@
             "line": 31,
             "name": "I should be presented with a successful contact us submission message",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:34"
+              "location": "src/step-definitions/ContactUs_Steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 804754339
+              "duration": 305151164
             }
           },
           {
@@ -432,7 +432,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 379707005
+              "duration": 405805787
             }
           }
         ],
@@ -460,7 +460,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1138247490
+              "duration": 1123861573
             }
           },
           {
@@ -473,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1427538207
+              "duration": 1062564442
             }
           },
           {
@@ -486,7 +486,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 501555
+              "duration": 445410
             }
           },
           {
@@ -499,7 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 474802542
+              "duration": 328397616
             }
           },
           {
@@ -508,11 +508,11 @@
             "line": 34,
             "name": "I type a random first name",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:80"
+              "location": "src/step-definitions/ContactUs_Steps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 74643964
+              "duration": 213605587
             }
           },
           {
@@ -521,11 +521,11 @@
             "line": 35,
             "name": "I type a random last name",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:86"
+              "location": "src/step-definitions/ContactUs_Steps.ts:64"
             },
             "result": {
               "status": "passed",
-              "duration": 16321895
+              "duration": 35692277
             }
           },
           {
@@ -534,11 +534,11 @@
             "line": 36,
             "name": "I enter a random email",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:92"
+              "location": "src/step-definitions/ContactUs_Steps.ts:70"
             },
             "result": {
               "status": "passed",
-              "duration": 8128641
+              "duration": 21882881
             }
           },
           {
@@ -551,7 +551,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8919905
+              "duration": 5980176
             }
           },
           {
@@ -564,7 +564,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 532418460
+              "duration": 425778942
             }
           },
           {
@@ -573,11 +573,11 @@
             "line": 39,
             "name": "I should be presented with a successful contact us submission message",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:34"
+              "location": "src/step-definitions/ContactUs_Steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 814215866
+              "duration": 306975823
             }
           },
           {
@@ -585,7 +585,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 467818095
+              "duration": 500191168
             }
           }
         ],
@@ -613,7 +613,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1061086405
+              "duration": 1048945763
             }
           },
           {
@@ -626,7 +626,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1363349780
+              "duration": 1201280730
             }
           },
           {
@@ -639,7 +639,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 495154
+              "duration": 1176512
             }
           },
           {
@@ -652,7 +652,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 347481180
+              "duration": 319616195
             }
           },
           {
@@ -661,11 +661,11 @@
             "line": 43,
             "name": "I type a first name John and a last name Jones",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:106"
+              "location": "src/step-definitions/ContactUs_Steps.ts:83"
             },
             "result": {
               "status": "passed",
-              "duration": 205432698
+              "duration": 248778469
             }
           },
           {
@@ -674,11 +674,11 @@
             "line": 44,
             "name": "I type an email address 'john_jones@example.com' and a comment 'Hello World!'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+              "location": "src/step-definitions/ContactUs_Steps.ts:88"
             },
             "result": {
               "status": "passed",
-              "duration": 43897324
+              "duration": 26568107
             }
           },
           {
@@ -691,7 +691,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 418070445
+              "duration": 414059325
             }
           },
           {
@@ -700,11 +700,11 @@
             "line": 46,
             "name": "I should be presented with a header text 'Thank You for your Message!'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:117"
+              "location": "src/step-definitions/ContactUs_Steps.ts:94"
             },
             "result": {
               "status": "passed",
-              "duration": 811831277
+              "duration": 312495979
             }
           },
           {
@@ -712,7 +712,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 355534170
+              "duration": 366901300
             }
           }
         ],
@@ -744,7 +744,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 899977245
+              "duration": 990672747
             }
           },
           {
@@ -757,7 +757,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1360598178
+              "duration": 1180027196
             }
           },
           {
@@ -770,7 +770,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 735458
+              "duration": 787416
             }
           },
           {
@@ -783,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305880374
+              "duration": 959865763
             }
           },
           {
@@ -792,11 +792,11 @@
             "line": 43,
             "name": "I type a first name Mia and a last name Carter",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:106"
+              "location": "src/step-definitions/ContactUs_Steps.ts:83"
             },
             "result": {
               "status": "passed",
-              "duration": 267480276
+              "duration": 105256707
             }
           },
           {
@@ -805,11 +805,11 @@
             "line": 44,
             "name": "I type an email address 'mia_carter@sol.com' and a comment 'This is a test comment'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+              "location": "src/step-definitions/ContactUs_Steps.ts:88"
             },
             "result": {
               "status": "passed",
-              "duration": 8494561
+              "duration": 12290543
             }
           },
           {
@@ -822,7 +822,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 628035885
+              "duration": 423223501
             }
           },
           {
@@ -831,11 +831,11 @@
             "line": 46,
             "name": "I should be presented with a header text 'Thank You for your Message!'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:117"
+              "location": "src/step-definitions/ContactUs_Steps.ts:94"
             },
             "result": {
               "status": "passed",
-              "duration": 810930854
+              "duration": 810431379
             }
           },
           {
@@ -843,7 +843,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 421859607
+              "duration": 340088592
             }
           }
         ],
@@ -875,7 +875,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 981409200
+              "duration": 1046980671
             }
           },
           {
@@ -888,7 +888,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1422317816
+              "duration": 1058144997
             }
           },
           {
@@ -901,7 +901,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 461880
+              "duration": 623137
             }
           },
           {
@@ -914,7 +914,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 361656212
+              "duration": 314559795
             }
           },
           {
@@ -923,11 +923,11 @@
             "line": 43,
             "name": "I type a first name Grace and a last name Hudson",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:106"
+              "location": "src/step-definitions/ContactUs_Steps.ts:83"
             },
             "result": {
               "status": "passed",
-              "duration": 204448531
+              "duration": 228145089
             }
           },
           {
@@ -936,11 +936,11 @@
             "line": 44,
             "name": "I type an email address 'grace_hudson' and a comment 'Do you create websites?'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+              "location": "src/step-definitions/ContactUs_Steps.ts:88"
             },
             "result": {
               "status": "passed",
-              "duration": 43885173
+              "duration": 13193436
             }
           },
           {
@@ -953,7 +953,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 413690668
+              "duration": 309412642
             }
           },
           {
@@ -962,11 +962,11 @@
             "line": 46,
             "name": "I should be presented with a header text 'Invalid email address'",
             "match": {
-              "location": "src/step-definitions/ContactUs_Steps.ts:117"
+              "location": "src/step-definitions/ContactUs_Steps.ts:94"
             },
             "result": {
               "status": "passed",
-              "duration": 26833929
+              "duration": 29153014
             }
           },
           {
@@ -974,7 +974,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 428200529
+              "duration": 326789970
             }
           }
         ],
@@ -1026,7 +1026,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1225136757
+              "duration": 889052083
             }
           },
           {
@@ -1039,7 +1039,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1355213080
+              "duration": 1074590082
             }
           },
           {
@@ -1052,7 +1052,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24211517
+              "duration": 24501404
             }
           },
           {
@@ -1065,7 +1065,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46785263
+              "duration": 47471882
             }
           },
           {
@@ -1078,7 +1078,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2002440664
+              "duration": 2002585997
             }
           },
           {
@@ -1091,7 +1091,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 508828257
+              "duration": 375812162
             }
           },
           {
@@ -1104,7 +1104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192895
+              "duration": 1904564
             }
           },
           {
@@ -1112,7 +1112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 387430310
+              "duration": 424558574
             }
           }
         ],
@@ -1140,7 +1140,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1025840564
+              "duration": 997373827
             }
           },
           {
@@ -1153,7 +1153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1370797316
+              "duration": 1046761491
             }
           },
           {
@@ -1166,7 +1166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24040417
+              "duration": 23684410
             }
           },
           {
@@ -1179,7 +1179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46665778
+              "duration": 45017165
             }
           },
           {
@@ -1192,7 +1192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2001617813
+              "duration": 2001774813
             }
           },
           {
@@ -1205,7 +1205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 389521493
+              "duration": 364823882
             }
           },
           {
@@ -1218,7 +1218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 398178
+              "duration": 594255
             }
           },
           {
@@ -1226,7 +1226,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 408277998
+              "duration": 381406201
             }
           }
         ],
@@ -1254,7 +1254,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1064775071
+              "duration": 1009223021
             }
           },
           {
@@ -1267,7 +1267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1332448891
+              "duration": 1050524545
             }
           },
           {
@@ -1280,7 +1280,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22852857
+              "duration": 24142832
             }
           },
           {
@@ -1293,7 +1293,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45341820
+              "duration": 46115784
             }
           },
           {
@@ -1306,7 +1306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2001512524
+              "duration": 2000805638
             }
           },
           {
@@ -1319,7 +1319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 499415449
+              "duration": 359645766
             }
           },
           {
@@ -1332,7 +1332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 327257
+              "duration": 437021
             }
           },
           {
@@ -1340,7 +1340,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 441136483
+              "duration": 486927387
             }
           }
         ],
