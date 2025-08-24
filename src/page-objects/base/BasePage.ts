@@ -7,8 +7,8 @@ const env = loadEnv({ path: "./env/.env" });
 
 // Create a configuration object for easy access to env variables
 const config = {
-	width: parseInt(env.parsed?.BROWSER_WIDTH || "1920"),
-	height: parseInt(env.parsed?.BROWSER_HEIGHT || "1080"),
+	width: parseInt(process.env.WIDTH || env.parsed?.BROWSER_WIDTH || "1920"),
+	height: parseInt(process.env.HEIGHT || env.parsed?.BROWSER_HEIGHT || "1080"),
 };
 
 export class BasePage {

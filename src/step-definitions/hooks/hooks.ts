@@ -11,9 +11,9 @@ const env = loadEnv({ path: "./env/.env" });
 // Create a configuration object for easy access to env variables
 const config = {
 	headless: env.parsed?.HEADLESS === "true",
-	browser: env.parsed?.UI_AUTOMATION_BROWSER || "chromium",
-	width: parseInt(env.parsed?.BROWSER_WIDTH || "1920"),
-	height: parseInt(env.parsed?.BROWSER_HEIGHT || "1080"),
+	browser: process.env.BROWSER_CHOICE || env.parsed?.UI_AUTOMATION_BROWSER || "chromium",
+	width: parseInt(process.env.WIDTH || env.parsed?.BROWSER_WIDTH || "1920"),
+	height: parseInt(process.env.HEIGHT || env.parsed?.BROWSER_HEIGHT || "1080"),
 };
 
 // Create dictionary mapping browser names to their launch functions
