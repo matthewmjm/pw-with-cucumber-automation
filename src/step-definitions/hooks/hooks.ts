@@ -73,6 +73,7 @@ Before(async function () {
 		this.basePage = this.pageManager.createBasePage();
 		this.homePage = this.pageManager.createHomePage();
 		this.contactUsPage = this.pageManager.createContactUsPage();
+		this.loginPage = this.pageManager.createLoginPage();
 	} catch (error) {
 		console.error("Browser content initialization failed:", error);
 	}
