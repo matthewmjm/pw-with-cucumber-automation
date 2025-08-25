@@ -5,6 +5,6 @@
 		"strict": true,
 		"esModuleInterop": true
 	},
-	"include": ["ts-examples/**/*.ts"],
+	"include": ["ts-examples/src/**/*.ts"],
 	"exclude": ["node_modules"]
 }

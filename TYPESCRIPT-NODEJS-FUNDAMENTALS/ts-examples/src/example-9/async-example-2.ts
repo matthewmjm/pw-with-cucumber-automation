@@ -15,13 +15,13 @@ simpleAsyncTask();
 
 /**
  * Explanation:
-    Task Simulation: The setTimeout function simulates an asynchronous operation that completes after 2 seconds.
+   Task Simulation: The setTimeout function simulates an asynchronous operation that completes after 2 seconds.
 
-    Output: The program logs “Task started…” and “Waiting for the task to complete…” immediately, 
-    then logs “Task completed after 2 seconds” after the delay.
+   Output: The program logs “Task started…” and “Waiting for the task to complete…” immediately, 
+   then logs “Task completed after 2 seconds” after the delay.
 
-    This example effectively demonstrates how asynchronous operations allow the program to continue running other tasks,
-    while waiting for the asynchronous task to complete.
+   This example effectively demonstrates how asynchronous operations allow the program to continue running other tasks,
+   while waiting for the asynchronous task to complete.
 
-    Remember: Asynchronous operations allow programs to perform other tasks while waiting for long-running operations to complete, improving efficiency and responsiveness. 
+   Remember: Asynchronous operations allow programs to perform other tasks while waiting for long-running operations to complete, improving efficiency and responsiveness. 
  */
