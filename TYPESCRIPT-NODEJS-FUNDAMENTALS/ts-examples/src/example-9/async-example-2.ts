@@ -1,18 +1,17 @@
 // This function simulates a simple asynchronous task using setTimeout
 function simpleAsyncTask() {
-    console.log("Task started...");
+	console.log("Task started...");
 
-    // setTimeout is used to simulate an asynchronous operation
-    setTimeout(() => {
-        console.log("Task completed after 1 second");
-    }, 2000); // 2000 milliseconds = 2 seconds
+	// setTimeout is used to simulate an asynchronous operation
+	setTimeout(() => {
+		console.log("Task completed after 1 second");
+	}, 2000); // 2000 milliseconds = 2 seconds
 
-    console.log("Waiting for the task to complete...");
+	console.log("Waiting for the task to complete...");
 }
 
 // Call the function
 simpleAsyncTask();
-
 
 /**
  * Explanation:
@@ -24,5 +23,5 @@ simpleAsyncTask();
     This example effectively demonstrates how asynchronous operations allow the program to continue running other tasks,
     while waiting for the asynchronous task to complete.
 
-    Remeber: Asynchronous operations allow programs to perform other tasks while waiting for long-running operations to complete, improving efficiency and responsiveness. 
+    Remember: Asynchronous operations allow programs to perform other tasks while waiting for long-running operations to complete, improving efficiency and responsiveness. 
  */
