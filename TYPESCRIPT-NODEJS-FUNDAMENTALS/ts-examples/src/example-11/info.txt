@@ -1,0 +1,10 @@
+1. async and await make handling time-consuming tasks (like fetching data) easier and more readable.
+
+2. Summary:
+   async: Declares a function that will wait for tasks. Think of it as saying, “This function will wait.”
+   await: Pauses the function until a task is done. It’s like saying, “Wait here until this task finishes.”
+
+3. In programming:
+   async: “I’m ordering a pizza.”
+   await: “I’ll wait here until the pizza arrives.”
+   This allows your program to do other things while waiting for the task to complete.
